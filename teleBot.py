@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Replace with your Telegram bot token and Cohere API key
-BOT_TOKEN = "7645807839:AAGcmAT85BvYY9NKYZq6PiXxTsh5IR0peCk"
-COHERE_API_KEY = "Ch42xoUih8Q6rGs8pDuBjrho9owL4c9wSH1G1h6j"
+BOT_TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>"
+COHERE_API_KEY = "<ADD_YOUR_COHERE_API_KEY>"
 
 # Initialize Cohere client
 co = cohere.Client(COHERE_API_KEY)
